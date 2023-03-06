@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-color:rgb(255, 255, 255);
+    --link-color-cab:#000000;
+    font-family: 'Mitr', sans-serif;
+    --boton-git:rgb(5, 27, 44);
+    --pub-1: rgb(255, 255, 255);
+    --pub-2:rgb(255, 255, 255, 0.5);
+    --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+    --gray: #34495e;
+    --darkgray: #2c3e50;
+    --navcolor:#483430;
+    --htmlLogo: #ff6400;
+    --css: #1E90FF;
+    --js: #f7d917;
+    --express: #323232;
+    --sql: #6eaa5e;
+}
+.dark{
+    min-height: 100%;
+    height: 100%;
+    background-color: #fcf7f8;
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    overflow-x: hidden;
+    font-size: -webkit-calc(60% + .8vmin);
+    font-size: calc(60% + .8vmin);
+    background: url(/img/fundo2.jpg) no-repeat 50% fixed ;
+    background-image: linear-gradient(to top,rgba(0,0,0,.4),transparent);
+    /*background-blend-mode:color-dodge;
+    background-color: rgba(18, 21, 39, 0.86);*/
+    -o-background-size: cover;
+    background-size: cover;
+}
+.dark::before {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to top,rgba(0,0,0,.4),transparent);
+    bottom: 0;
+    left:0;
+    width:100%; 
+    height: 100%;
+}
+.white{
+    min-height: 100%;
+    height: 100%;
+    background-color: #fcf7f8;
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    overflow-x: hidden;
+    font-size: -webkit-calc(60% + .8vmin);
+    font-size: calc(60% + .8vmin);
+    background: url(/img/fundo2.jpg) no-repeat 50% fixed ;
+    /*background-blend-mode:color-dodge;
+    background-color: rgba(18, 21, 39, 0.86);*/
+    -o-background-size: cover;
+    background-size: cover;
+}
+body::-webkit-scrollbar-track
+{
+	
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(37, 38, 39)),
+									   color-stop(0.72, rgb(69, 70, 71)),
+									   color-stop(0.86, rgb(155, 156, 158)));
+}

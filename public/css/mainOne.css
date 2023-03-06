@@ -1,0 +1,47 @@
+.indice-1{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: left;
+ }
+ 
+ .indice-1 h1{
+  position: relative;
+   font-family: "Merriweather", arial;
+    font-size: 2rem;
+    color: var(--pub-1);
+    padding-left:  10rem;
+    z-index: -4;
+ }
+ h1::after {
+    content: '|';
+    margin-left: 1px;
+    opacity: 1;
+    animation: pisca .7s infinite steps(55) both;
+  }
+  
+  @keyframes pisca {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  .aling-section{
+    margin-top:12%;
+    position: relative;
+    z-index: -5;
+    height: 45vw;
+  }
+  @media  (max-width:600px){
+    .aling-section{
+      margin-top:50%;
+      height: 100vw;
+    }
+    .indice-1 h1{
+      align-items: center;
+      font-size: 1.4rem;
+      padding-left:  2rem;
+      
+    }
+  }
