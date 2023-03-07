@@ -2,8 +2,8 @@
   width: 100%;
   background:rgba(255,255,255,0.5);
   min-height: 350px;
-  position: absolute;
-  z-index: -5;
+  z-index: -10;
+
 }
 .niveis h1{
   padding-top: 1rem;
@@ -29,6 +29,7 @@
     max-width: 300px;
     height: 400px;
     margin: 5px;
+    
 }
 .card article{
 	transition: all 0.9s ease;
@@ -65,12 +66,13 @@
   height: 100%;
 	width: 100%;
   margin-top: -4.4rem;
-	opacity: 0.4;
+	opacity: 0.6;
 	-webkit-transition: all 4s ease;
 	-moz-transition: all 4s ease;
 	-o-transition: all 4s ease;
 	-ms-transition: all 4s ease;
 	transition: all 4s ease;
+  position: relative;
 }
 .container:hover {
 	cursor: pointer;
@@ -92,6 +94,11 @@
   }
   .card_conteudo h4 {
     padding-top: 2px;
+  }
+  .card_conteudo p{
+
+    display: flex;
+    z-index: -9;
   }
 }
 

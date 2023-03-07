@@ -79,6 +79,10 @@ button p {
 }
 
 @media  (max-width:600px){
+    .position{
+        position: absolute;
+        margin-top:inherit;
+    }
     .NavBar{
         position: fixed;
         margin-top:inherit;
@@ -89,6 +93,7 @@ button p {
         border-bottom-right-radius: inherit;
         border-top-left-radius:10px ;
         border-top-right-radius: 10px;
+        z-index: 1;
     }
     i p {
         display:block;

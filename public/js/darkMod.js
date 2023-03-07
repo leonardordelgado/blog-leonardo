@@ -9,6 +9,7 @@
     var data = new Date()
     var hora = data.getHours()
     darkModAuto(hora)
+    
  }
  function darkModAuto(h){
     const bt = document.querySelector(".Mod")
@@ -19,7 +20,7 @@
         span.innerHTML="Tema Auto"
         msg.innerHTML="Tema Auto"
 
-    if(h >= 6 && h <18){
+    if(h >= 0 && h <18){
         bt.classList.add("fa-cogs")
         bt.classList.remove("fa-moon-o")
         bt.classList.remove("fa-sun-o")
