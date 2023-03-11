@@ -1,8 +1,8 @@
 {
   "name": "web-curriculo",
   "version": "1.0.0",
+  "type":"commonjs",
   "description": "",
-  "main": "index.js",
   "dependencies": {
     "accepts": "^1.3.8",
     "ansi-styles": "^4.3.0",
